@@ -1,7 +1,7 @@
 <!doctype html>
 
 <!--Ryan Dittmer
-	Week 3
+	Week 4
 	MIU 1208      -->
 
 <html>
@@ -12,16 +12,20 @@
 <meta name="viewport" content="target-densitydpi=device-dpi" />
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320"/>
-<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+<link rel="stylesheet" href="css/themes/myTheme.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile.structure-1.1.1.min.css" />
+
+
+
 <script src="js/libs/modernizr.custom.min.js"></script>
 </head>
 
 <body>
-<div data-role="page" id="index">
-  <div data-role="header">
+<div data-role="page" id="index" data-theme="b" data-content-theme="b">
+  <div data-role="header" data-theme="b">
     <h1>Level Tracker</h1>
   </div>
-  <div data-role="content"></div>
+  <div data-role="content">
   <a href="#additem"><img src="img/addLevel.png" align="absmiddle" hspace="15%"/></a>
   <h4>Add a level to the list of levels to keep track of everything completed.</h4>
   
@@ -34,9 +38,11 @@
     <li><a href="#bonus"><h1 align="center" >Bonus Set</h1><img src="img/bonus.png"/></a></li>
     
   </ul>
+  </div>
   
-<div data-role="footer">
-    <div data-role="navbar">		<ul>
+<div data-role="footer" data-theme="b">
+    <div data-role="navbar">		
+    	  <ul>
 			<li><a href="index.html" class="ui-btn-active" data-ajax="false">Home</a></li>
 			<li><a href="http://rdittmer.github.com/MIU_week3/Bronze/index.html" data-ajax="false">Bronze App</a></li>
             <li><a href="http://rdittmer.github.com/MIU_week3/Gold/index.html" data-ajax="false">Gh-Pages</a></li>
@@ -46,8 +52,8 @@
   </div>
 </div>
 
-<ul data-role="page" id="set1" data-add-back-btn="true">
-	 <div data-role="header">
+<ul data-role="page" id="set1" data-add-back-btn="true" data-theme="b" data-content-theme="b">
+	 <div data-role="header" data-theme="b">
      <h1>Set 1</h1>
      </div>
      
@@ -59,7 +65,7 @@
     	<li data-icon="info"><h2>Sticky Situation</h2><a href="#comingSoon"></a></li>
     	</ul>
     </div>
-    <div data-role="footer">
+    <div data-role="footer" data-theme="b">
     <div data-role="navbar">		<ul>
 			<li><a href="index.html" class="ui-btn-active" data-ajax="false">Home</a></li>
 			<li><a href="http://rdittmer.github.com/MIU_week3/Bronze/index.html" data-ajax="false">Bronze App</a></li>
@@ -70,8 +76,8 @@
   </div>
 </ul>
 
-<ul data-role="page" id="set2" data-add-back-btn="true">
-	 <div data-role="header">
+<ul data-role="page" id="set2" data-add-back-btn="true" data-theme="b" data-content-theme="b">
+	 <div data-role="header" data-theme="b">
      <h1>Set 2</h1>
      </div>
      
@@ -83,7 +89,7 @@
     	<li data-icon="info"><h2>Watch your Step</h2><a href="#comingSoon"></a></li>
     	</ul>
     </div>
-    <div data-role="footer">
+    <div data-role="footer" data-theme="b">
     <div data-role="navbar">		<ul>
 			<li><a href="index.html" class="ui-btn-active" data-ajax="false">Home</a></li>
 			<li><a href="http://rdittmer.github.com/MIU_week3/Bronze/index.html" data-ajax="false">Bronze App</a></li>
@@ -94,8 +100,8 @@
   </div>
 </ul>
 
-<ul data-role="page" id="set3" data-add-back-btn="true">
-	 <div data-role="header">
+<ul data-role="page" id="set3" data-add-back-btn="true" data-theme="b" data-content-theme="b">
+	 <div data-role="header" data-theme="b">
      <h1>Set 3</h1>
      </div>
      
@@ -107,7 +113,7 @@
     	<li data-icon="info"><h2>Raiders of the Lost Platform</h2><a href="#comingSoon"></a></li>
     	</ul>
     </div>
-    <div data-role="footer">
+    <div data-role="footer" data-theme="b">
     <div data-role="navbar">		<ul>
 			<li><a href="index.html" class="ui-btn-active" data-ajax="false">Home</a></li>
 			<li><a href="http://rdittmer.github.com/MIU_week3/Bronze/index.html" data-ajax="false">Bronze App</a></li>
@@ -118,8 +124,8 @@
   </div>
 </ul>
 
-<ul data-role="page" id="set4" data-add-back-btn="true">
-	 <div data-role="header">
+<ul data-role="page" id="set4" data-add-back-btn="true" data-theme="b" data-content-theme="b">
+	 <div data-role="header" data-theme="b">
      <h1>Set 4</h1>
      </div>
      
@@ -131,7 +137,7 @@
     	<li data-icon="info"><h2>Platform Palace</h2><a href="#comingSoon"></a></li>
     	</ul>
     </div>
-    <div data-role="footer">
+    <div data-role="footer" data-theme="b">
     <div data-role="navbar">		<ul>
 			<li><a href="index.html" class="ui-btn-active" data-ajax="false">Home</a></li>
 			<li><a href="http://rdittmer.github.com/MIU_week3/Bronze/index.html" data-ajax="false">Bronze App</a></li>
@@ -142,8 +148,8 @@
   </div>
 </ul>
 
-<ul data-role="page" id="bonus" data-add-back-btn="true">
-	 <div data-role="header">
+<ul data-role="page" id="bonus" data-add-back-btn="true" data-theme="b" data-content-theme="b">
+	 <div data-role="header" data-theme="b">
      <h1>Bonus Set</h1>
      </div>
      
@@ -155,7 +161,7 @@
         	<li data-icon="info"><h2>Platform Farm</h2><a href="#comingSoon"></a></li>
     	</ul>
     </div>
-    <div data-role="footer">
+    <div data-role="footer" data-theme="b">
     <div data-role="navbar">		<ul>
 			<li><a href="index.html" class="ui-btn-active" data-ajax="false">Home</a></li>
 			<li><a href="http://rdittmer.github.com/MIU_week3/Bronze/index.html" data-ajax="false">Bronze App</a></li>
@@ -166,12 +172,12 @@
   </div>
 </ul>
 
-<div data-role="page" id="comingSoon" data-add-back-btn="true">
-<div data-role="header">
+<div data-role="page" id="comingSoon" data-add-back-btn="true" data-theme="b" data-content-theme="b">
+<div data-role="header" data-theme="b">
      <h1>Under Construction</h1>
      </div>
 <h1>Level Coming Soon</h1>
-<div data-role="footer">
+<div data-role="footer" data-theme="b">
     <div data-role="navbar">		<ul>
 			<li><a href="index.html" class="ui-btn-active" data-ajax="false">Home</a></li>
 			<li><a href="http://rdittmer.github.com/MIU_week3/Bronze/index.html" data-ajax="false">Bronze App</a></li>
@@ -182,8 +188,8 @@
   </div>
 </div>
 
-<div data-role="page" id="additem" data-add-back-btn="true" >
-	<div data-role="header">
+<div data-role="page" id="additem" data-add-back-btn="true" data-theme="b" data-content-theme="b">
+	<div data-role="header" data-theme="b">
 		<h1>Add A Level</h1>
     </div>
     
@@ -245,7 +251,7 @@
    	  <div data-role="button" id="clearData"    data-inline="true">Clear Levels</div>
       <div data-role="button" id="addNew" data-inline="true" class="ui-disabled">Add New Level</div>
       
-      <div data-role="footer">
+      <div data-role="footer" data-theme="b">
     <div data-role="navbar">		<ul>
 			<li><a href="index.html" class="ui-btn-active" data-ajax="false">Home</a></li>
 			<li><a href="http://rdittmer.github.com/MIU_week3/Bronze/index.html" data-ajax="false">Bronze App</a></li>
